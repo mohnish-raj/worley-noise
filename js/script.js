@@ -1,7 +1,7 @@
 const featurePoints = [];
 
-const colSize = 5;
-const rowSize = 5;
+const colSize = 10;
+const rowSize = 10;
 
 function createFeaturePoints(ctx, cnv, n=9) {
   ctx.fillStyle = "violet";
@@ -50,7 +50,6 @@ function visualizeNoise(ctx, cnv, row, col) {
   }
 }
 
-resizeCnv(cnv);
 createFeaturePoints(ctx, cnv);
 
 (function animate() {
