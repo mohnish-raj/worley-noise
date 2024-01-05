@@ -50,7 +50,7 @@ function visualizeNoise(ctx, cnv, row, col) {
   }
 }
 
-resizeCnv(cnv, 400, 500);
+resizeCnv(cnv);
 createFeaturePoints(ctx, cnv);
 
 (function animate() {
